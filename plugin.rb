@@ -3,4 +3,4 @@
 
 
 # whitelist raw iframes posted by users
-register_asset 'javascripts/iframe-whitelist.js', :server_side
+register_asset 'javascripts/Whitelist-Iframe-Kitedor.js', :server_side

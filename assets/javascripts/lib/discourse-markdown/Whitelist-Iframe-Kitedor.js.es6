@@ -6,11 +6,7 @@ import {whiteListIframe} from 'pretty-text/sanitizer';
 
 import { registerOption } from 'pretty-text/pretty-text';
 
-registerOption((siteSettings, opts) => {
-  opts.features["Whitelist-Iframe-Kitedor"] = true;
-});
-
-  export function setup(helper) {
+export function setup(helper) {
 
   helper.whiteList([
     'label[for]',
